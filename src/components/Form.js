@@ -4,7 +4,7 @@ export const Form = () => {
     let [input,setinput] = useState({name:'',email:'',password:''})
 
     let hndlsub = (e)=>{
-        e.preventDefault()
+      
         console.log(input);
     }
   return (
