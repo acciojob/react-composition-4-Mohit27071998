@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
+import React,{ useState } from 'react'
 
-export const Form = () => {
+ const Form = () => {
     let [input,setinput] = useState({name:'',email:'',password:''})
 
     let hndlsub = (e)=>{
@@ -17,3 +17,4 @@ export const Form = () => {
     </form>
   )
 }
+export default Form;
